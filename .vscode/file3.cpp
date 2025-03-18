@@ -37,7 +37,14 @@ int main (){
              cout << "Luas Lingkaran : "<< luasLingkaran(JariJari) << endl;
              break;
 
+             case 3 :
+             break;
 
+             default :
+             cout << "Pilihan Tidak Tersedia" << endl;
+             break;
+    }        
+}while (pilihan != 3);
  
     
 }
