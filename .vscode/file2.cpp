@@ -34,5 +34,4 @@ int main(){
     cout << "Nilai x terakhir = " << x << endl;
     cout << "Jumlah Perulangan Do While = " << PerulanganDO << endl;
 
-    
 } 
