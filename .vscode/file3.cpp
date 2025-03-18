@@ -30,7 +30,21 @@ int main (){
              cout << "Luas Persegi Panjang : "<< luasPersegiPajang(Panjang,Lebar) << endl;
              break;
 
-           
+             case 2 :
+             cout << "Menghitung Luas Lingkaran : "<< endl;
+             cout << "Masukkan Jari-Jari : ";
+             cin >> JariJari;
+             cout << "Luas Lingkaran : "<< luasLingkaran(JariJari) << endl;
+             break;
+
+             case 3 :
+             break;
+
+             default :
+             cout << "Pilihan Tidak Tersedia" << endl;
+             break;
+    }        
+}while (pilihan != 3);
  
     
 }
